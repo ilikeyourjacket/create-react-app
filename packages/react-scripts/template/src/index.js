@@ -1,8 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import { Button } from './components/Button/Button';
+export default class DummyClass extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello<Button>yo</Button>
+      </div>
+    );
+  }
+}
