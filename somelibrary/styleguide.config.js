@@ -3,6 +3,6 @@
  */
 
 module.exports = {
-  /** Currently, we only render components that match this glob */
   components: 'src/components/**/*.{js,jsx}',
+  // webpackConfig: require("../config/webpack.config.dev.js")
 };
